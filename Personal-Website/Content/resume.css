@@ -1,0 +1,55 @@
+﻿.nav li.active
+{
+	font-weight: bold;
+}
+
+section h1
+{
+	border-bottom: 2px solid #428bca;
+}
+
+td:first-child
+{
+	font-weight: bold;
+}
+
+td:not(:first-child)
+{
+	text-align: right;
+}
+
+
+#resume-nav
+{
+	background-color: white;
+}
+	/* Widen the fixed sidebar */
+	#resume-nav.affix
+	{
+		width: 250px;
+	}
+
+@media (max-width: 991px)
+{
+	/* Widen the fixed sidebar */
+	#resume-nav
+	{
+		display: none;
+	}
+}
+
+#resume-nav .panel-heading
+{
+	margin: 0 !important;
+}
+
+#resume-nav.panel
+{
+	padding: 0 !important;
+	margin-top: 30px;
+}
+
+#resume .active
+{
+	font-weight: bold;
+}

@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "- About Me";
+}
+
+<div>
+    <div class="page-header">
+        <h1 id="template">About Me</h1>
+    </div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">A little about myself...</div>
+        <div class="panel-body">
+            <div class="pull-left" style="margin-right: 15px;">
+                <img src="~/Content/images/ian.jpg" alt="Ian Burns" class="img-circle "></div>
+            <p>@Html.ActionLink("Professionally", "Index", "Resume"), I specialize in data driven web applications. 
+                I use  various .NET frameworks in order to create solutions for complex business problems. Most recently, I have designed an
+                new <a href="http://msdn.microsoft.com/en-us/library/ff650706.aspx">application architecture</a> for my team in order to support <a href="http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)">S.O.L.I.D.</a> design principles.
+                More importantly, we started unit testing parts our application, a key step in following Agile methodologies and implementing Test Driven Development.
+            </p>
+            <p>
+                Personally, I have many interests that keep me occupied throughout the week. First, and a priority over the others, I am an avid weightlifter and take my health and fitness very seriously.
+                I find keeping a strong body is just as important as a strong mind, and I believe that maintaining  both leads to an optimal life. I spend several hours a week in the gym, and track my diet on a daily basis. 
+                That being said, and frankly on the opposite side of the spectrum, I am a homebrewer and love baking. Both are just as much an art as they are a science and being able to create food and beverages for others 
+                which they actually enjoy is extremely rewarding. 
+            </p>
+            <p>
+                Also, I have a cat: @Html.ActionLink("Molly", "MollyTheCat").
+            </p>
+        </div>
+    </div>
+</div>

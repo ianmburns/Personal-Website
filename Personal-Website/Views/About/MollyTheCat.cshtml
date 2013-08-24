@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = " - Molly The Cat";
+}
+
+<div id="carousel-molly" class="carousel visible-lg visible-md" style="width: 800px; margin: 0 auto;">
+
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-molly" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-molly" data-slide-to="1"></li>
+        <li data-target="#carousel-molly" data-slide-to="2"></li>
+        <li data-target="#carousel-molly" data-slide-to="3"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="~/Content/images/molly/molly1.jpg" alt="Molly">
+            <div class="carousel-caption">
+                My Cat: Molly
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Content/images/molly/molly2.jpg" alt="Molly">
+            <div class="carousel-caption">
+                Looking majestic there, molly
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Content/images/molly/molly3.jpg" alt="Molly">
+            <div class="carousel-caption">
+                I spend too much time with her.
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/Content/images/molly/molly4.jpg" alt="Molly">
+            <div class="carousel-caption">
+                She is a pretty nice cat!                
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-molly" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-molly" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+<div class="container hidden-lg hidden-md">
+    <div class="thumbnail">
+        <img src="~/Content/images/molly/molly1.jpg" alt="Molly">
+        <div class="caption">
+            <p>
+                My Cat: Molly
+            </p>
+        </div>
+    </div>
+    <div class="thumbnail">
+        <img src="~/Content/images/molly/molly2.jpg" alt="Molly">
+        <div class="caption">
+            <p>
+                Looking majestic there, molly
+            </p>
+        </div>
+    </div>
+    <div class="thumbnail">
+        <img src="~/Content/images/molly/molly3.jpg" alt="Molly">
+        <div class="caption">
+            <p>
+                I spend too much time with her.
+            </p>
+        </div>
+    </div>
+        <div class="thumbnail">
+        <img src="~/Content/images/molly/molly4.jpg" alt="Molly">
+        <div class="caption">
+            <p>
+                She is a pretty nice cat!                
+            </p>
+        </div>
+    </div>
+</div>
+@section scripts
+{
+$('.carousel').carousel();
+}

@@ -1,0 +1,63 @@
+﻿@using System.Web.Razor.Generator
+@{
+    ViewBag.Title = " - Index";
+}
+
+@section Header
+{
+    <div class="jumbotron" id="header">
+        <div class="container">
+            <h1>Ian Burns
+                <br />
+                <small>.Net Developer</small></h1>
+        </div>
+    </div>
+}
+
+<div class="text-center">
+    <h2>Explore</h2>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="projectarea panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">My Resume
+                </h3>
+            </div>
+            <div class="project-desc hidden-sm">
+                <p>Learn about my professional accomplishments. Also features a neat scroll bar.</p>
+            </div>
+            <div class="panel-footer">
+                @Html.ActionLink("View", string.Empty, "Resume")
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="projectarea panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">SignalR Chatroom
+                </h3>
+            </div>
+            <div class="project-desc hidden-sm">
+                <p>A chatroom created with SignalR which features unique usernames, different rooms, and notification messages.</p>
+            </div>
+            <div class="panel-footer">
+                <a href="http://chatroom.@Url.Content("~/")">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="projectarea panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">This Site!
+                </h3>
+            </div>
+            <div class="project-desc hidden-sm">
+                <p>Learn more about features used to create this site.</p>
+            </div>
+            <div class="panel-footer">
+            Coming Soon!
+            </div>
+        </div>
+    </div>
+</div>

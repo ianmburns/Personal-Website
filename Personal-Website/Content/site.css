@@ -1,0 +1,86 @@
+﻿html,
+body
+{
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 25px 0 60px;
+	background-color: white;
+	border-left: 1px solid #c0b9c4;
+	border-right: 1px solid #c0b9c4;
+}
+
+#main
+{
+	margin-top: 10px;
+}
+
+#topNav {
+	background-color: #f8f8f8;
+}
+
+#topNav.navbar .navbar-toggle {
+  border-color: #428bca;
+}
+
+#topNav.navbar .icon-bar {
+	background-color: #428bca;
+}
+
+/* Set the fixed height of the footer here */
+#footer
+{
+	height: 60px;
+	border-top: 1px solid #c0b9c4;
+	text-align: right;
+	background-color: #f8f8f8;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px)
+{
+	#wrap
+	{
+		margin: 0 auto;
+		padding: 25px 0 0 0;
+	}
+}
+
+#header
+{
+	border-bottom: 1px solid #c0b9c4;
+	background-color: white;
+}
+
+.project-desc
+{
+	height: 75px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.projectarea
+	{
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 992px)
+{
+	.project-desc
+	{
+		height: auto;
+	}
+}
