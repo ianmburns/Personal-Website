@@ -143,6 +143,7 @@
     <Content Include="Content\images\molly\molly3.jpg" />
     <Content Include="Content\images\molly\molly4.jpg" />
     <Content Include="Content\resume.css" />
+    <Content Include="Content\favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\site.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
