@@ -62,6 +62,11 @@ body
 	border-bottom: 1px solid #c0b9c4;
 }
 
+#header.jumbotron {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
 .project-desc
 {
 	margin-left: 5px;
