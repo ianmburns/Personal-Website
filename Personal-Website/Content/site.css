@@ -64,7 +64,7 @@ body
 
 .project-desc
 {
-	height: 75px;
+	min-height: 100px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
