@@ -45,8 +45,8 @@ td:not(:first-child)
 
 #resume-nav.panel
 {
-	padding: 0 !important;
 	margin-top: 30px;
+	padding: 0 !important;
 }
 
 #resume .active

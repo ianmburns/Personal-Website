@@ -8,16 +8,16 @@ body
 /* Wrapper for page content to push down footer */
 #wrap
 {
-	min-height: 100%;
+	background-color: white;
+	border-left: 1px solid #c0b9c4;
+	border-right: 1px solid #c0b9c4;
 	height: auto !important;
 	height: 100%;
 	/* Negative indent footer by its height */
 	margin: 0 auto -60px;
+	min-height: 100%;
 	/* Pad bottom by footer height */
 	padding: 25px 0 60px;
-	background-color: white;
-	border-left: 1px solid #c0b9c4;
-	border-right: 1px solid #c0b9c4;
 }
 
 #main
@@ -40,10 +40,10 @@ body
 /* Set the fixed height of the footer here */
 #footer
 {
-	height: 60px;
-	border-top: 1px solid #c0b9c4;
-	text-align: right;
 	background-color: #f8f8f8;
+	border-top: 1px solid #c0b9c4;
+	height: 60px;
+	text-align: right;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
@@ -58,15 +58,15 @@ body
 
 #header
 {
-	border-bottom: 1px solid #c0b9c4;
 	background-color: white;
+	border-bottom: 1px solid #c0b9c4;
 }
 
 .project-desc
 {
-	min-height: 100px;
 	margin-left: 5px;
 	margin-right: 5px;
+	min-height: 100px;
 }
 
 @media (min-width: 768px) and (max-width: 991px)

@@ -11,17 +11,17 @@ namespace Personal_Website.Controllers
 
         public ActionResult Experience()
         {
-            return PartialView();
+            return PartialView("_Experience");
         }
 
         public ActionResult TechnicalSkills()
         {
-            return PartialView();
+            return PartialView("_TechnicalSkills");
         }
 
         public ActionResult Education()
         {
-            return PartialView();
+            return PartialView("_Education");
         }
     }
 }

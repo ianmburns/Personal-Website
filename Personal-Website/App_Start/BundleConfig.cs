@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace Personal_Website
 {
@@ -9,10 +8,10 @@ namespace Personal_Website
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+                "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/Site/css").Include("~/Content/site.css"));
             bundles.Add(new StyleBundle("~/Content/Resume/css").Include("~/Content/resume.css"));
@@ -24,7 +23,6 @@ namespace Personal_Website
             bundles.Add(new ScriptBundle("~/bundles/scrollto").Include("~/Scripts/scrollto/jquery.scrollto.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/resume").Include("~/Scripts/resume.js"));
-
         }
     }
 }
