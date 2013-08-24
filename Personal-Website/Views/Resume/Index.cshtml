@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = " - Resume";
+}
+
+@section styles
+{
+    @Styles.Render("~/Content/Resume/css")
+}
+<div class="row">
+    <div class="col-md-3">
+        <div id="resume-nav" class="panel panel-primary" data-spy="affix" data-offset="0">
+            <div class="panel-heading">
+                <h3 class="panel-title">Resume
+                </h3>
+            </div>
+            <ul class="nav nav-stacked" role="navigation">
+                <li class="active"><a href="#Experience">Professional Experience</a></li>
+                <li><a href="#TechnicalSkills">Technical Skills</a></li>
+                <li><a href="#Education">Education</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-8 col-md-offset-1">
+        <section id="Experience">
+            @{
+                Html.RenderPartial("_Experience");
+            }
+        </section>
+
+        <section id="TechnicalSkills">
+            @{
+                Html.RenderPartial("_TechnicalSkills");
+            }
+        </section>
+
+        <section id="Education">
+            @{
+                Html.RenderPartial("_Education");
+            }
+        </section>
+        <div id="scrollSpacer"></div>
+    </div>
+</div>
+
+@section scripts
+
+{
+    @Scripts.Render("~/bundles/scrollto")
+
+    @Scripts.Render("~/bundles/resume")
+}
