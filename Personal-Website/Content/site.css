@@ -26,7 +26,7 @@ body
 }
 
 #topNav {
-	background-color: #f5f5f5;
+	background-color: #f8f8f8;
 }
 
 #topNav.navbar .navbar-toggle {
@@ -40,7 +40,7 @@ body
 /* Set the fixed height of the footer here */
 #footer
 {
-	background-color: #A0A0A0;
+	background-color: #f8f8f8;
 	border-top: 1px solid #c0b9c4;
 	height: 60px;
 	text-align: right;
